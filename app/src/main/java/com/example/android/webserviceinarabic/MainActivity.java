@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void loadData(View view) throws IOException {
+    public void loadData(View view) {
 
 
         new Thread(new Runnable() {
